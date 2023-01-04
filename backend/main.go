@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/keiji25/react-ts-tutorial/model"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -11,6 +9,6 @@ import (
 func main() {
 	e := echo.New()
 	e.Use(middleware.CORS())
-	fmt.Println(model.DB)
+	model.Connect()
 	e.Logger.Fatal(e.Start(":8080"))
 }
