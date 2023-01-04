@@ -1,0 +1,10 @@
+.header {
+    background-color: rgb(135, 255, 255);
+    height: 50px;
+    display: flex;
+}
+
+.header p {
+    margin: auto;
+}
+
