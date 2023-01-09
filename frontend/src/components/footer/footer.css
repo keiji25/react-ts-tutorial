@@ -1,7 +1,12 @@
 .footer {
-    position: absolute;
     bottom: 0;
-    width: 100vw;
     height: 50px;
     background-color: rgb(135, 255, 255);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
 }

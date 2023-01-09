@@ -1,5 +1,7 @@
+html {
+  position: relative;
+}
 .App {
-  text-align: center;
   min-height: 100vh;
   font-family: メイリオ;
 }

@@ -5,13 +5,8 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 
-export const HOST = 'http://localhost:8080/'
+export const HOST = 'http://localhost:8080'
 function App() {
-  // axios
-  //   .get(HOST)
-  //   .then(res => {
-  //     console.log(res)
-  //   })
   return (
     <div className='App'>
       <Header />
