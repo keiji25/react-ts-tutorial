@@ -41,5 +41,15 @@ func Connect() {
 		break
 	}
 
-	DB.AutoMigrate(&Board{})
+	DB.AutoMigrate(&Article{})
+
+	// 仮データ挿入
+	// for i := 0; i < 5; i++ {
+	// 	article := []Article{
+	// 		{
+	// 			Content: fmt.Sprintf("content%d", i),
+	// 		},
+	// 	}
+	// 	DB.Create(&article)
+	// }
 }
